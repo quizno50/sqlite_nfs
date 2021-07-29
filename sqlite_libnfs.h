@@ -1,6 +1,6 @@
 #pragma once
 #include <nfsc/libnfs.h>
-#include <sqlite3.h>
+#include "sqlite3.h"
 
 int sqlite3_nfs_close(sqlite3_file* f);
 int sqlite3_nfs_read(sqlite3_file* f, void* buf, int iAmt, sqlite3_int64 iOfst);
